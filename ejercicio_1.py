@@ -3,13 +3,13 @@ def main():
 
     if puntos == 0.0:
         dinero = puntos * 2400
-        print("Nivel Inaceptable, Beneficio: ",dinero)
+        print("Nivel Inaceptable, Beneficio: ",dinero,"€")
     elif puntos == 0.4:
         dinero = puntos * 2400
-        print("Nivel Aceptable, Beneficio: ",dinero)
+        print("Nivel Aceptable, Beneficio: ",dinero,"€")
     elif puntos >= 0.6:
         dinero = puntos * 2400
-        print("Nivel Meritorio, Beneficio: ",dinero)
+        print("Nivel Meritorio, Beneficio: ",dinero,"€")
     else:
         print("ERROR: Los puntos ingresados no son validos, Intente de nuevo")
 
